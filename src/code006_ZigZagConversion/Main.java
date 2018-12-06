@@ -20,18 +20,14 @@ public class Main {
 					break;
 				}
 				//填充每一列数据【满】
-				str[m][2*j]=s.charAt(k);
-				k++;
-				
+				str[m][2*j]=s.charAt(k++);
 			}
 			//填充稀疏列数据
 			for (int n = numRows-2; n >0; n--) {
 				if(k==s.length()){
 					break;
 				}
-				str[n][2*j+1]=s.charAt(k);
-				k++;
-				
+				str[n][2*j+1]=s.charAt(k++);
 			}
 			//必须写 否则下述代码不能用
 			if(k==s.length()){
