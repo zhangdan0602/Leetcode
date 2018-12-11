@@ -18,7 +18,7 @@ public class Main {
 			//边获取原数的个位数，边求和【而不是全部逆序后，边获取逆序数的个位数，边求和】
 			rs=rs*10+num;
 		}
-		return 0;
+		return rs;
 	}
 	public static void main(String[] args) {
 		reverse(1463847412);
