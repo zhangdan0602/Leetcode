@@ -34,7 +34,6 @@ public class Main {
 			rString += strs[0].charAt(i);
 		}
 		return rString;
-
 	}
 
 	public static void main(String[] args) {
