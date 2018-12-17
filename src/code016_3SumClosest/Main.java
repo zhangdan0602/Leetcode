@@ -21,7 +21,7 @@ public class Main {
 					//三数之和等于目标值，直接返回
 					return target;
 				}
-				//类似于三数之和为0  三数之和大于目标值，向左移动
+				//不断查看与target的最小差，越小时返回sum。
 				min=Math.abs(sum-target)-Math.abs(min-target)<0?sum:min;
 			}
 		}
