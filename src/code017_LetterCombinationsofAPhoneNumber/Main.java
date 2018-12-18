@@ -30,6 +30,7 @@ public class Main {
 			for (int i = 0; i < current.size(); i++) {
 				rStrings.add(current.get(i));
 			}
+			//返回排列结果，1/多个字符时，将抽取最后一个字符对应的字母集合：这个结果将作为后缀继续排列。
 			return rStrings;
 		}
 		//因为循环次数不确定，所以需要使用递归，不断地截取到只剩一个字符
@@ -43,7 +44,7 @@ public class Main {
 		for (int i = 0; i < rStrings.size(); i++) {
 			System.out.print(rStrings.get(i)+";");
 		}
-		//返回排列结果，多个字符时，这个结果将作为后缀继续排列。
+		//返回排列结果，多个字符时，这个结果是中间排列结果，将作为后缀继续排列。
 		return rStrings;
 		
 	}
