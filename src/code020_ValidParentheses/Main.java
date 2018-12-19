@@ -5,7 +5,6 @@ import java.util.Stack;
 
 public class Main {
 	public static boolean isValid(String s) {
-		
 		HashMap<Character, Character> map=new HashMap<>();
 		map.put(')', '(');
 		map.put('}', '{');
@@ -30,13 +29,9 @@ public class Main {
 		}
 		//最后栈是否为空，返回结果。
 		return stack.isEmpty();
-		
-	
-		
+			
 		//不可以这样写，当没有左括号时，topElement=null，map.get(topElement)报空指针。
 		//c!=map.get(topElement)
-		
-		
 	}
 
 	public static void main(String[] args) {
