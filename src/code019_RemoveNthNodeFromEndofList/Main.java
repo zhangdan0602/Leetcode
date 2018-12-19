@@ -17,6 +17,8 @@ public class Main {
 		rs.next=rs.next.next;
 		return out.next;
 		*/
+		
+		
 		/*
 		//遍历两遍
 		ListNode p=head;
