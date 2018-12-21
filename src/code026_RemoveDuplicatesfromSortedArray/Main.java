@@ -18,23 +18,21 @@ public class Main {
 			}
 		}
 		return i;
-		
-		/*
-		 //这种方法使用的是双链表法
-		 //j存放结果数组长度
-		 int j=0;
+/*
+		// 这种方法使用的是双链表法
+		// j存放结果数组长度
+		int j = 0;
 		for (int i = 1; i < nums.length; i++) {
-			//如果原数组中存在相同元素时，直接通过i++跳过。
-			//存在不相同元素时
-			if (nums[i]!=nums[j]) {
+			// 如果原数组中存在相同元素时，直接通过i++跳过。
+			// 存在不相同元素时
+			if (nums[i] != nums[j]) {
 				j++;
-				//将不相同元素的存入j数组中
-				nums[j]=nums[i];
+				// 将不相同元素的存入j数组中
+				nums[j] = nums[i];
 			}
 		}
-		return j+1;
-		*/
-
+		return j + 1;
+*/
 	}
 
 	public static void main(String[] args) {
