@@ -46,6 +46,7 @@ public class Main {
 		// private static void reverse4(int[] nums, int start,int end) : int sum = start + end;
 		int sum = start + nums.length -1 ;
 		int mid = sum / 2;
+		// start <= mid【if：sum=2】
 		for (; start <= mid; start++) {
 			int tmp = nums[start];
 			nums[start] = nums[sum - start];
