@@ -1,6 +1,5 @@
 package code031_NextPermutation;
 
-import sun.launcher.resources.launcher;
 
 public class Main {
 	public static void nextPermutation(int[] nums) {
@@ -44,13 +43,13 @@ public class Main {
 	// 将降序数组反转为升序数组的方法2，left++，mid=sum／2
 	private static void reverse1(int[] nums, int start) {
 		// 将降序数组反转为升序数组的方法，left++，mid=sum／2，start和end不确定
-		// private static void reverse4(int[] nums, int start,int end) : int sum = start + end + 1;
-		int sum = start + nums.length;
+		// private static void reverse4(int[] nums, int start,int end) : int sum = start + end;
+		int sum = start + nums.length -1 ;
 		int mid = sum / 2;
-		for (; start < mid; start++) {
+		for (; start <= mid; start++) {
 			int tmp = nums[start];
-			nums[start] = nums[sum - 1 - start];
-			nums[sum - 1 - start] = tmp;
+			nums[start] = nums[sum - start];
+			nums[sum - start] = tmp;
 		}
 	}
 	private static void swap(int[] nums, int i, int j) {
