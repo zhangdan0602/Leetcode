@@ -26,7 +26,7 @@ public class Main {
 		List<Integer> internal = new ArrayList<>();
 		//start增到可以将排列存入list
 		if (start == end) {
-			for (int i = 0; i < end; i++) {
+			for (int i = 0; i <= end; i++) {
 				internal.add(nums[i]);
 			}
 			list.add(internal);
