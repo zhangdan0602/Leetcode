@@ -38,13 +38,17 @@ public class Two {
 5 7 
 #L##LR# 
 ##0#RL# 
-####### 
+##R#R## 
 #R##RL# 
 #######
 		 */
 		char location = 0;
-		while (initX >= 0 && initY >= 0 && initX < n && initY < m&&isExp[initX][initY]==0) {
+		while (initX >= 0 && initY >= 0 && initX < n && initY < m) {
 			
+			if (isExp[initX][initY]==1) {
+				input[initX][initY] = '0';
+				break;
+			}
 			if (input[initX][initY] == '0') {
 				input[initX][initY] = '-';
 				isExp[initX][initY]=1;
