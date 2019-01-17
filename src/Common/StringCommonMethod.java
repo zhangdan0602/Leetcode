@@ -5,7 +5,7 @@ public class StringCommonMethod {
 	public static void main(String[] args) {
 		
 		String string="abc\tdef\nhig\frt\r";
-		System.out.println(string.split("(\\s)+")[0]);
+		System.out.println(string.trim().split("(\\s)+")[0]);
 		System.out.println(string.split("\\s")[1]);
 		System.out.println(string.split("\\s")[2]);
 		System.out.println(string.split("\\s")[3]);
