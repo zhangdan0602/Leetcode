@@ -1,7 +1,15 @@
 package Common;
 
 public class StringCommonMethod {
-	public static void main(StringCommonMethod[] args) {
+	
+	public static void main(String[] args) {
+		
+		String string="abc\tdef\nhig\frt\r";
+		System.out.println(string.split("(\\s)+")[0]);
+		System.out.println(string.split("\\s")[1]);
+		System.out.println(string.split("\\s")[2]);
+		System.out.println(string.split("\\s")[3]);
+		
 		String str = "abc";
 		System.out.println("判断字符串是否相等："+str.equals("abc"));
 		System.out.println("忽略大小写，判断字符串是否相等"+str.equalsIgnoreCase("ABC"));
