@@ -48,7 +48,7 @@ public class GUI_Frame extends Frame implements ActionListener{
 		});
 		Dialog dialog =new Dialog(this, "hi", false);
 		dialog.setSize(100, 60);
-		dialog.show();
+//		dialog.show();
 		this.setVisible(true);		
 		
 	}
