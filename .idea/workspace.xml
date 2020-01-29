@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6c12bed-5e78-4565-a0ce-d40bccc70de4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode_2020/tag001_stack/code009_NextPermutation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode_2020/tag001_stack/code010_SearchinRotatedSortedArray.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leetcode_2020/tag001_stack/code008_RemoveElement.java" afterPath="$PROJECT_DIR$/src/leetcode_2020/tag001_stack/code008_RemoveElement.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,12 +68,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="code008_RemoveElement.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="code008_RemoveElement.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode_2020/tag001_stack/code008_RemoveElement.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="code009_NextPermutation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode_2020/tag001_stack/code009_NextPermutation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1100">
+              <caret line="75" column="9" lean-forward="false" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
+              <folding>
+                <element signature="e#2403#2404#0" expanded="true" />
+                <element signature="e#2452#2453#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="code010_SearchinRotatedSortedArray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode_2020/tag001_stack/code010_SearchinRotatedSortedArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="59" selection-end-column="5" />
+              <folding>
+                <element signature="e#1972#1973#0" expanded="true" />
+                <element signature="e#2043#2044#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,6 +166,8 @@
         <option value="$PROJECT_DIR$/src/leetcode_2020/tag001_stack/code006_4Sum.java" />
         <option value="$PROJECT_DIR$/src/leetcode_2020/tag001_stack/code007_RemoveDuplicatesfromSortedArray.java" />
         <option value="$PROJECT_DIR$/src/leetcode_2020/tag001_stack/code008_RemoveElement.java" />
+        <option value="$PROJECT_DIR$/src/leetcode_2020/tag001_stack/code009_NextPermutation.java" />
+        <option value="$PROJECT_DIR$/src/leetcode_2020/tag001_stack/code010_SearchinRotatedSortedArray.java" />
       </list>
     </option>
   </component>
@@ -447,47 +476,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.code008_RemoveElement">
-    <configuration default="false" name="code004_3Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="leetcode_2020.tag001_stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="leetcode_2020.tag001_stack.code004_3Sum" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="programs" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="code005_3SumClosest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="leetcode_2020.tag001_stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="leetcode_2020.tag001_stack.code005_3SumClosest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="programs" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.code010_SearchinRotatedSortedArray">
     <configuration default="false" name="code006_4Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -536,6 +525,46 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="leetcode_2020.tag001_stack.code008_RemoveElement" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="programs" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="code009_NextPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="leetcode_2020.tag001_stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="leetcode_2020.tag001_stack.code009_NextPermutation" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="programs" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="code010_SearchinRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="leetcode_2020.tag001_stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="leetcode_2020.tag001_stack.code010_SearchinRotatedSortedArray" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -753,19 +782,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.code004_3Sum" />
-      <item index="1" class="java.lang.String" itemvalue="Application.code005_3SumClosest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.code006_4Sum" />
-      <item index="3" class="java.lang.String" itemvalue="Application.code007_RemoveDuplicatesfromSortedArray" />
-      <item index="4" class="java.lang.String" itemvalue="Application.code008_RemoveElement" />
+      <item index="0" class="java.lang.String" itemvalue="Application.code006_4Sum" />
+      <item index="1" class="java.lang.String" itemvalue="Application.code007_RemoveDuplicatesfromSortedArray" />
+      <item index="2" class="java.lang.String" itemvalue="Application.code008_RemoveElement" />
+      <item index="3" class="java.lang.String" itemvalue="Application.code009_NextPermutation" />
+      <item index="4" class="java.lang.String" itemvalue="Application.code010_SearchinRotatedSortedArray" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.code008_RemoveElement" />
-        <item index="1" class="java.lang.String" itemvalue="Application.code007_RemoveDuplicatesfromSortedArray" />
-        <item index="2" class="java.lang.String" itemvalue="Application.code006_4Sum" />
-        <item index="3" class="java.lang.String" itemvalue="Application.code005_3SumClosest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.code004_3Sum" />
+        <item index="0" class="java.lang.String" itemvalue="Application.code010_SearchinRotatedSortedArray" />
+        <item index="1" class="java.lang.String" itemvalue="Application.code009_NextPermutation" />
+        <item index="2" class="java.lang.String" itemvalue="Application.code008_RemoveElement" />
+        <item index="3" class="java.lang.String" itemvalue="Application.code007_RemoveDuplicatesfromSortedArray" />
+        <item index="4" class="java.lang.String" itemvalue="Application.code006_4Sum" />
       </list>
     </recent_temporary>
   </component>
@@ -804,7 +833,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2813599" sideWeight="0.50555557" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33059788" sideWeight="0.49444443" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20046893" sideWeight="0.49444443" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -870,7 +899,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -938,8 +967,8 @@
         <state relative-caret-position="165">
           <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
           <folding>
-            <element signature="e#1950#1951#0" expanded="true" />
-            <element signature="e#2038#2039#0" expanded="true" />
+            <element signature="e#1950#1951#0" expanded="false" />
+            <element signature="e#2038#2039#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1028,6 +1057,28 @@
         <state relative-caret-position="221">
           <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode_2020/tag001_stack/code009_NextPermutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="75" column="9" lean-forward="false" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
+          <folding>
+            <element signature="e#2403#2404#0" expanded="true" />
+            <element signature="e#2452#2453#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode_2020/tag001_stack/code010_SearchinRotatedSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <element signature="e#1972#1973#0" expanded="true" />
+            <element signature="e#2043#2044#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
