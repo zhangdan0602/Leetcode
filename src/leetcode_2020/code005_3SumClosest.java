@@ -1,4 +1,4 @@
-package leetcode_2020.tag001_stack;
+package leetcode_2020;
 import java.util.*;
 /**
  * Created by Zd on 2020/1/28.

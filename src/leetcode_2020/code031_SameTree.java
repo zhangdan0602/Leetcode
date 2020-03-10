@@ -1,7 +1,4 @@
-package leetcode_2020.tag001_stack;
-
-import java.util.ArrayList;
-import java.util.List;
+package leetcode_2020;
 
 /**
  * Created by Zd on 2020/2/10.

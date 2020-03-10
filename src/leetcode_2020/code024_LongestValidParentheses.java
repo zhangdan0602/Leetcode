@@ -1,4 +1,4 @@
-package leetcode_2020.tag001_stack;
+package leetcode_2020;
 
 import java.util.HashMap;
 import java.util.Map;
