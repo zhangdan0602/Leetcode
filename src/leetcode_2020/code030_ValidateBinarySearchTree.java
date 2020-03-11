@@ -4,7 +4,7 @@ package leetcode_2020;
  * Created by Zd on 2020/2/10.
  */
 public class code030_ValidateBinarySearchTree {
-    public boolean helper(TreeNode node, Integer left, Integer right){
+    public static boolean helper(TreeNode node, Integer left, Integer right){
         if (node == null)
             return true;
         int val = node.val;
@@ -14,8 +14,12 @@ public class code030_ValidateBinarySearchTree {
         if (!helper(node.right, val, right)) return false;
         return true;
     }
-    public boolean isValidBST(TreeNode root) {
+    public static boolean isValidBST(TreeNode root) {
         return helper(root, null, null);
+    }
+    public static void main(String[] args){
+        TreeNode root = new TreeNode(1);
+        isValidBST(root);
     }
 
 }
