@@ -1,0 +1,59 @@
+package Point_to_Offer_Version1.其他;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class P94_12_Print1ToMaxOfNDigits
+{
+    // 递归，全排列
+    /*
+    * 输入数字 n，按顺序打印出从 1 到最大的 n 位十进制数。比如输入 3，则打印出 1、2、3 一直到最大的 3 位数 999。
+    */
+    static List<Integer> list = new ArrayList<>();
+    public static int[] printNumbers(int n) {
+        int[] rs = new int[n];
+        if (n <= 0)
+            return null;
+        for (int i = 0; i < 10; i++){
+            rs[0] = i;
+            Print1ToMaxOfNDigitsRecursively(rs, n, 0, list);
+        }
+        int[] result = new int[list.size()];
+        for (int i = 0; i < result.length; i++)
+        {
+            result[i] = list.get(i);
+        }
+        return result;
+    }
+
+    private static void Print1ToMaxOfNDigitsRecursively(int[] rs, int n, int i, List<Integer> list)
+    {
+        if (i == n - 1){
+            printNumber(rs, list);
+            return;
+        }
+        for (int j = 0; j < 10; j++)
+        {
+            rs[i + 1] = j;
+            Print1ToMaxOfNDigitsRecursively(rs, n, i + 1, list);
+        }
+    }
+
+    private static void printNumber(int[] rs, List<Integer> list)
+    {
+        int res = 0;
+        for (int i = 0; i < rs.length; i++)
+        {
+            res = res * 10 + rs[i];
+        }
+        if (res != 0)
+            list.add(res);
+    }
+    public static void main(String[] args){
+        int[] res = printNumbers(2);
+        for (int i = 0; i < res.length; i++)
+        {
+            System.out.println(res[i]);
+        }
+    }
+}
