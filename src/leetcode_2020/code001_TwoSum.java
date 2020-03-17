@@ -7,7 +7,6 @@ import java.util.Map;
  * Created by Zd on 2020/1/26.
  */
 public class code001_TwoSum {
-
     public static int[] twoSum(int[] nums, int target) {
         for (int i = 0; i < nums.length - 1; i++){
             for(int j = i + 1; j < nums.length; j++){
