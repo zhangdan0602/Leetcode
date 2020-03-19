@@ -68,6 +68,7 @@ public class code013_LongestSubstringWithoutRepeatingCharacters
         }
         return max;
     }
+
     public static int lengthOfLongestSubstring3(String s) {
         int max = 0, i = 0;
         Map<Character, Integer> map = new HashMap<>();

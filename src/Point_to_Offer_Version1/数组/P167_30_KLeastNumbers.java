@@ -57,7 +57,7 @@ public class P167_30_KLeastNumbers
 
     public static void main(String[] args){
         P167_30_KLeastNumbers kLeastNumbers = new P167_30_KLeastNumbers();
-        int k = 1;
+        int k = 3;
         int[] res = kLeastNumbers.getLeastNumbers(new int[]{0,3,2,1}, k);
         for (int num:res)
         {
