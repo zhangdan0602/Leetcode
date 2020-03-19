@@ -1,6 +1,6 @@
-package Point_to_Offer_Version1.数学;
+package leetcode_2020;
 
-public class P147_32_NumberOf1
+public class code233_NumberOf1
 {
     /*
     输入一个整数 n ，求1～n这n个整数的十进制表示中1出现的次数。
@@ -47,7 +47,7 @@ public class P147_32_NumberOf1
         return number;
     }
     public static void main(String[] args){
-        P147_32_NumberOf1 p147_32_numberOf1 = new P147_32_NumberOf1();
+        code233_NumberOf1 p147_32_numberOf1 = new code233_NumberOf1();
         System.out.println(p147_32_numberOf1.countDigitOne(12));
     }
 }
