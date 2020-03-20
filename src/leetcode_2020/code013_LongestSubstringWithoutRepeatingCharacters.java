@@ -8,6 +8,22 @@ public class code013_LongestSubstringWithoutRepeatingCharacters
         /*
         *输入: "pwwkew"
         输出: 3 */
+        int[] dp = new int[s.length() + 1];
+        int answer = 0;
+        for (int i = 0; i < s.length(); i++)
+        {
+            dp[i] = 1;
+            for (int j = 0; j < i; j++)
+            {
+                if (s.charAt(j) <= s.charAt(i) && i - j == 1)
+                    dp[i] = Math.max(dp[i], dp[j] + 1);
+            }
+            answer = Math.max(answer, dp[i]);
+        }
+        System.out.println(answer);
+        return answer;
+        /*
+
         if (s.length() == 0)
             return 0;
         if (s.length() == 1)
@@ -21,6 +37,7 @@ public class code013_LongestSubstringWithoutRepeatingCharacters
                     rs = rs + s.charAt(k);
                 }
                 else{
+
                     if (rs.length() > beforers.length()){
                         beforers = rs;
                     }
@@ -29,7 +46,9 @@ public class code013_LongestSubstringWithoutRepeatingCharacters
                 }
             }
         }
+        System.out.println(beforers);
         return beforers.length();
+        */
     }
 
     public static int lengthOfLongestSubstring1(String s) {
@@ -82,6 +101,6 @@ public class code013_LongestSubstringWithoutRepeatingCharacters
         return max;
     }
     public static void main(String[] args){
-        System.out.println(lengthOfLongestSubstring2("  "));
+        System.out.println(lengthOfLongestSubstring("aabbccdefji"));
     }
 }
