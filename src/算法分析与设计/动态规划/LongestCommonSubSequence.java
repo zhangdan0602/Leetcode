@@ -17,8 +17,6 @@ public class LongestCommonSubSequence
             dp[0][i] = 0;
         for(int i = 0; i < dp.length; i++)
             dp[i][0] = 0;
-        System.out.println(dp[0].length);
-        System.out.println(dp.length);
         for(int i = 1; i < dp.length; i++){
             for(int j = 1; j < dp[i].length; j++){
                 if(text1.charAt(i - 1) == text2.charAt(j - 1)){
