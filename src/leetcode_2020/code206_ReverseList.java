@@ -1,6 +1,5 @@
 package leetcode_2020;
 
-import Point_to_Offer_Version1.ListNode;
 
 public class code206_ReverseList
 {

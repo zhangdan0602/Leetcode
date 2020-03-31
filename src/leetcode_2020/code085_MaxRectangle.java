@@ -1,6 +1,6 @@
 package leetcode_2020;
 
-public class code85_MaxRectangle
+public class code085_MaxRectangle
 {
     public int maximalRectangle(char[][] matrix) {
         if(matrix == null || matrix.length == 0)
@@ -73,7 +73,7 @@ public class code85_MaxRectangle
         }
     }
     public static void main(String[] args){
-        code85_MaxRectangle maxRectangle = new code85_MaxRectangle();
+        code085_MaxRectangle maxRectangle = new code085_MaxRectangle();
         System.out.println(maxRectangle.maximalRectangle(new char[][]{
                 {'1','0','1','0','0'},
                 {'1','0','1','1','1'},

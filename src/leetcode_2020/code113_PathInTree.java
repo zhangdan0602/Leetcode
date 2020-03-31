@@ -1,6 +1,5 @@
 package leetcode_2020;
 
-import Point_to_Offer_Version1.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,8 +24,8 @@ public class code113_PathInTree
     private void recur(TreeNode root, Stack<Integer> path, int current, int sum)
     {
         List<Integer> inner = new ArrayList<>();
-        current += root.value;
-        path.push(root.value);
+        current += root.val;
+        path.push(root.val);
         boolean left = root.left == null && root.right == null;
         if (current == sum && left){
             for (int x:path)

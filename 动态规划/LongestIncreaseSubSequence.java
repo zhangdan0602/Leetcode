@@ -16,8 +16,6 @@ public class LongestIncreaseSubSequence
             {
                 if (nums[i] > nums[k])
                     // dp[i]:以i结尾，最长的递增子序列
-                    //既然是递增子序列，我们只要找到前面那些结尾比 nums[i] 小的子序列，然后把nums[i]接到最后，就可以形成一个新的递增子序列，
-                    //而且这个新的子序列长度加一。
                     dp[i] = Math.max(dp[i], dp[k] + 1);
             }
             maxLength = Math.max(maxLength, dp[i]);
