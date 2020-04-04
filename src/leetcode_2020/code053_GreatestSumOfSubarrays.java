@@ -1,6 +1,6 @@
 package leetcode_2020;
 
-public class code53_GreatestSumOfSubarrays
+public class code053_GreatestSumOfSubarrays
 {
     boolean InvalidInput = false;
     // 贪心
@@ -37,7 +37,7 @@ public class code53_GreatestSumOfSubarrays
         return max;
     }
     public static void main(String[] args){
-        code53_GreatestSumOfSubarrays greatestSumOfSubarrays = new code53_GreatestSumOfSubarrays();
+        code053_GreatestSumOfSubarrays greatestSumOfSubarrays = new code053_GreatestSumOfSubarrays();
         System.out.println(greatestSumOfSubarrays.maxSubArray1(new int[]{-2,1,-3,4,-1,2,1,-5,4}));
     }
 }

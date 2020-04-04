@@ -1,6 +1,6 @@
 package leetcode_2020;
 
-public class code62_UniquePath1
+public class code062_UniquePath1
 {
     public int uniquePaths(int m, int n) {
         if (m == 0 || n == 0)
@@ -24,7 +24,7 @@ public class code62_UniquePath1
         return dp[n - 1][m - 1];
     }
     public static void main(String[] args){
-        code62_UniquePath1 uniquePath1 = new code62_UniquePath1();
+        code062_UniquePath1 uniquePath1 = new code062_UniquePath1();
         System.out.println(uniquePath1.uniquePaths(3, 2));
 
     }

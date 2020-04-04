@@ -1,6 +1,6 @@
 package leetcode_2020;
 
-public class code64_MinimumPathSum
+public class code064_MinimumPathSum
 {
     public int minPathSum(int[][] grid) {
         if(grid == null)

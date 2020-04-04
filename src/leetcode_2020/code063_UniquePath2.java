@@ -1,6 +1,6 @@
 package leetcode_2020;
 
-public class code63_UniquePath2
+public class code063_UniquePath2
 {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         if(obstacleGrid == null)
@@ -37,7 +37,7 @@ public class code63_UniquePath2
         return dp[len - 1][col - 1];
     }
     public static void main(String[] args){
-        code63_UniquePath2 uniquePath1 = new code63_UniquePath2();
+        code063_UniquePath2 uniquePath1 = new code063_UniquePath2();
         int input[][]= {{0,0,0},{0,1,0},{0,0,0}};
         System.out.println(uniquePath1.uniquePathsWithObstacles(input));
     }

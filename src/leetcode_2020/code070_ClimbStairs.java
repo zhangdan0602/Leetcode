@@ -1,6 +1,6 @@
 package leetcode_2020;
 
-public class code70_ClimbStairs
+public class code070_ClimbStairs
 {
     public int climbStairs(int n) {
         if(n == 1 || n == 2)
